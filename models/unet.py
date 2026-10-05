@@ -23,3 +23,23 @@ class ResBlock(nn.Module):
         h = self.conv2(h)
         out = h + self.skip(x)
         return out
+
+class Downsample(nn.Module):
+    def __init__(self, ch):
+        super().__init__()
+        self.conv1 = nn.Conv2d(ch, ch, kernel_size=3, stride=2, padding=1)
+
+    def forward(self, x):
+        out = self.conv1(x)
+        return out
+
+class Upsample(nn.Module):
+    def __init__(self, ch):
+        super().__init__()
+        self.ups1 = nn.Upsample(scale_factor=2, mode="nearest")
+        self.conv1 = nn.Conv2d(ch, ch, kernel_size=3, padding=1)
+
+    def forward(self, x):
+        x = self.ups1(x)
+        out = self.conv1(x)
+        return out
