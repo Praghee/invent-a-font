@@ -87,12 +87,3 @@ class UNet(nn.Module):
         h = self.out_act(h)
         h = self.out_conv(h)
         return h
-
-
-model = UNet()
-# x = torch.randn(4, 1, 32, 32)
-# t = torch.tensor([0, 10, 500, 999])
-# print(model(x, t).shape)
-for name, p in model.named_parameters():
-    if p.grad is None:
-        print("no grad:", name)
