@@ -1,6 +1,6 @@
 import torch
 
-def make_schedule(T, schedule="linear", beta_start=1e-4, beta_end=0.02, s=0.008):
+def make_schedule(T, schedule="cosine", beta_start=1e-4, beta_end=0.02, s=0.008):
     if schedule=="linear":
         betas = torch.linspace(beta_start, beta_end, T)
         alphas = 1 - betas
