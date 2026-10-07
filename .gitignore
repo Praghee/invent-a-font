@@ -4,3 +4,5 @@ checkpoints/
 data/raw/
 *.pt
 scratch/
+outputs/
+sample.png

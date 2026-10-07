@@ -16,6 +16,8 @@ def main(cfg):
     if os.path.exists(f"checkpoints/{model_name}.pt"):
         ckpt = torch.load(f"checkpoints/{model_name}.pt", map_location=device)
         model.load_state_dict(ckpt["model"])
+    else:
+        raise FileNotFoundError(f"Checkpoint file {model_name}.pt not found!")
 
     betas, alphas, alpha_bars = make_schedule(T)
     x = sample(model, batch_size, betas, alphas, alpha_bars)

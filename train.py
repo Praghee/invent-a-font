@@ -68,7 +68,7 @@ if __name__ == "__main__":
         "T" : 1000,
         "size" : 32,
         "shuffle" : True,
-        "num_epochs" : 3,
+        "num_epochs" : 100,
         "batch_size" : 16,
         "device" : "cuda" if torch.cuda.is_available() else "cpu"        
     }

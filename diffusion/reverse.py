@@ -16,7 +16,8 @@ def p_sample(model, xt, i, betas, alphas, alpha_bars):
 def sample(model, n, betas, alphas, alpha_bars):
     T = len(alpha_bars)
     model.eval()
-    x = torch.randn(n, 1, 32, 32)
+    device = next(model.parameters()).device
+    x = torch.randn(n, 1, 32, 32, device=device)
     with torch.no_grad():
         for i in reversed(range(T)):
             x = p_sample(model, x, i, betas, alphas, alpha_bars)
