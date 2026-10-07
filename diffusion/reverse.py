@@ -11,7 +11,7 @@ def p_sample(model, xt, i, betas, alphas, alpha_bars):
     with torch.no_grad():
         eps = model(xt, t)
     mean = reverse_mean(xt, eps, i,  betas, alphas, alpha_bars)
-    return mean + torch.sqrt(betas[i]) * torch.rand_like(xt) if i > 0 else mean
+    return mean + torch.sqrt(betas[i]) * torch.randn_like(xt) if i > 0 else mean
 
 def sample(model, n, betas, alphas, alpha_bars):
     T = len(alpha_bars)
