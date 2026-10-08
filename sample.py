@@ -1,35 +1,39 @@
 import os
+import time
 import torch
 from models.unet import UNet
 from utils.viz import show_grid
-from diffusion.reverse import sample
+from diffusion.reverse import generate
 from diffusion.schedule import make_schedule
 
 def main(cfg):
-    T = cfg["T"]
     device = cfg["device"]
-    batch_size = cfg["batch_size"]
-    model_name = cfg["model_name"]
+    tag = "ddpm" if cfg["sampling"] == "ddpm" else f"ddim{cfg['ddim_steps']}"
+    ckpt_path = f"checkpoints/{cfg['model_name']}.pt"
+    if not os.path.exists(ckpt_path):
+        raise FileNotFoundError(f"Checkpoint file {ckpt_path} not found!")
 
-    model = UNet()
-    model.to(device)
-    if os.path.exists(f"checkpoints/{model_name}.pt"):
-        ckpt = torch.load(f"checkpoints/{model_name}.pt", map_location=device)
-        model.load_state_dict(ckpt["model"])
-    else:
-        raise FileNotFoundError(f"Checkpoint file {model_name}.pt not found!")
+    model = UNet().to(device)
+    model.load_state_dict(torch.load(ckpt_path, map_location=device)["model"])
 
-    betas, alphas, alpha_bars = make_schedule(T)
-    x = sample(model, batch_size, betas, alphas, alpha_bars)
-    show_grid(x, "sample.png", ncols=4)
+    torch.manual_seed(cfg["seed"])
+    schedule = make_schedule(cfg["T"])
+    t0 = time.time()
+    x = generate(model, cfg["batch_size"], schedule, cfg["sampling"], cfg["ddim_steps"])
+    print(f"{tag} sampling took {time.time() - t0:.1f} s")
 
+    os.makedirs("outputs", exist_ok=True)
+    show_grid(x.cpu(), f"outputs/sample_{tag}.png", ncols=4)
 
 if __name__ == "__main__":
     cfg = {
         "T" : 1000,
         "batch_size" : 16,
         "device" : "cuda" if torch.cuda.is_available() else "cpu",      
-        "model_name": "test"
+        "model_name": "test",
+        "sampling": "ddim",
+        "ddim_steps": 100,
+        "seed": 0
     }
 
     main(cfg)
