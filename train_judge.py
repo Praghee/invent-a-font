@@ -4,6 +4,7 @@ import torch.nn as nn
 from models.judge import JudgeNet
 from data.dataset import FontDataset
 from torch.utils.data import TensorDataset, DataLoader
+from data.dataset import font_split, dataset_to_tensors
 
 def accuracy(net, loader):
     net.eval()
@@ -23,21 +24,13 @@ def main(cfg):
     num_epochs = cfg["num_epochs"]
     batch_size = cfg["batch_size"]
     device = cfg["device"]
+    num_val = cfg["num_val"]
 
     print("Loading Dataset and Model!")
     ds = FontDataset("data/raw/fonts", size=size)
-    font_order = torch.randperm(len(ds) // 26, generator=torch.Generator().manual_seed(0))
-    train_fonts = font_order[:80].tolist()
-    val_fonts = font_order[80:].tolist()
-
-    train_idx, val_idx = [], []
-    for f in train_fonts:
-        train_idx.extend([f * 26 + letter for letter in range(26)])
-    for f in val_fonts:
-        val_idx.extend([f * 26 + letter for letter in range(26)])
-
-    X = torch.stack([ds[i] if torch.is_tensor(ds[i]) else ds[i][0] for i in range(len(ds))])
-    Y = torch.arange(len(ds)) % 26
+    num_fonts = len(ds) // 26
+    X, Y = dataset_to_tensors(ds)
+    train_idx, val_idx = font_split(num_fonts, num_val)
     train_ds = TensorDataset(X[train_idx], Y[train_idx])
     val_ds   = TensorDataset(X[val_idx],   Y[val_idx])
     train_loader = DataLoader(train_ds, batch_size=batch_size, shuffle=True)
