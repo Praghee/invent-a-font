@@ -46,9 +46,10 @@ class Upsample(nn.Module):
         return out
 
 class UNet(nn.Module):
-    def __init__(self, time_dim=128):
+    def __init__(self, time_dim=128, num_classes=None):
         super().__init__()
         self.time_dim = time_dim
+        self.num_classes = num_classes
         self.time_mlp = nn.Sequential(nn.Linear(time_dim, time_dim), nn.SiLU(), nn.Linear(time_dim, time_dim))
         self.init_cov = nn.Conv2d(1, 32, 3, padding=1)
         self.down1 = ResBlock(32, 32, time_dim)
@@ -65,9 +66,18 @@ class UNet(nn.Module):
         self.out_act = nn.SiLU()
         self.out_conv = nn.Conv2d(32, 1, 3, padding=1)
 
-    def forward(self, x, t):
+        if num_classes is not None:
+            self.label_emb = nn.Embedding(num_classes + 1, time_dim)
+
+    def forward(self, x, t, y=None):
         temb = timestep_embedding(t, self.time_dim)
         temb = self.time_mlp(temb)
+        if self.num_classes is not None:
+            if y is None:
+                y = torch.full_like(t, self.num_classes)
+            temb = temb + self.label_emb(y)
+        elif y is not None:
+            raise ValueError("this UNet was built without num_classes, so it cannot take labels")
         h = self.init_cov(x)
         h = self.down1(h, temb)
         skip1 = h
