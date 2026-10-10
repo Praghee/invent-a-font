@@ -5,7 +5,7 @@ import torch
 from models.unet import UNet
 from models.judge import JudgeNet
 from utils.viz import show_grid
-from utils.metrics import coverage, judge_probs, novelty, readability
+from utils.metrics import coverage, diversity, judge_probs, novelty, readability
 from data.dataset import FontDataset, dataset_to_tensors, font_split
 from diffusion.reverse import generate
 from diffusion.schedule import make_schedule
@@ -69,6 +69,7 @@ def score(judge, imgs, ref, y=None):
         r["per_letter"] = [
             (probs[y == k].argmax(1) == k).float().mean().item() for k in range(26)
         ]
+        r.update(diversity(imgs.cpu(), y))
     return r
 
 
@@ -142,7 +143,7 @@ def main(cfg):
 
     cols = ["conf", "sure", "letters", "evenness", "nn_dist", "copy_rate"]
     if cond:
-        cols = ["acc", "p_true"] + cols
+        cols = ["acc", "p_true", "div"] + cols
     if mode == "compare":
         cols = ["sec_per_16"] + cols
     print("| set | " + " | ".join(cols) + " |")
@@ -156,6 +157,10 @@ def main(cfg):
         for name, r in results.items():
             if "per_letter" in r:
                 print(f"{name:>24}: " + " ".join(f"{a:.2f}" for a in r["per_letter"]))
+        print("\nper-letter diversity (A..Z):")
+        for name, r in results.items():
+            if "div_per_letter" in r:
+                print(f"{name:>24}: " + " ".join(f"{d:.2f}" for d in r["div_per_letter"]))
 
     if mode == "compare":
         out = f"compare_{cfg['model_name']}"
@@ -185,4 +190,5 @@ if __name__ == "__main__":
         "num_val_fonts": 20,
         "seed": 0,
     }
+    
     main(cfg)

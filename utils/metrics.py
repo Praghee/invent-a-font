@@ -32,3 +32,12 @@ def novelty(imgs, ref, copy_thresh=0.1):
     b = ref.flatten(1)
     d = torch.cdist(a, b).min(dim=1).values / (a.shape[1] ** 0.5)
     return {"nn_dist": d.mean().item(), "copy_rate": (d < copy_thresh).float().mean().item()}
+
+def diversity(imgs, y):
+    out = []
+    for k in range(26):
+        g = imgs[y == k].flatten(1)                       # (20, 1024)
+        d = torch.cdist(g, g) / g.shape[1] ** 0.5         # RMS pixel distance
+        n = len(g)
+        out.append((d.sum() / (n * (n - 1))).item())
+    return {"div": sum(out) / 26, "div_per_letter": out}
