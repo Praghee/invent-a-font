@@ -50,7 +50,7 @@ def ddim_sample(model, n, alpha_bars, n_steps=50, clip_x0=True, y=None, w=1.0, x
     T = len(alpha_bars)
     steps = torch.linspace(T - 1, 0, n_steps).long().tolist()
     xt = start_noise(n, device, xT)
-    traj = [xt.cpu()]
+    traj = [xt.cpu()] if return_traj else None
     for k, i in enumerate(steps):
         i_prev = steps[k + 1] if k + 1 < len(steps) else -1
         t = torch.full((n,), i, dtype=torch.long, device=device)
