@@ -80,6 +80,6 @@ Settings live in the `cfg` dictionary at the bottom of each script. Fonts are no
 
 ## Fonts and licences
 
-The fonts used for training are not included in this repository.
+The fonts used for training are not included in this repository. All 100 are open-licensed: 92 under the SIL Open Font License 1.1 and 8 under the Apache License 2.0 (including Roboto). Two fonts (Arvo and Monoton) carry no licence text inside the font file, so their SIL OFL licence was checked by hand.
 
-TODO: list the fonts and their licences here (including the Roboto font under the Apache 2.0 licence).
+The full list, with the licence and copyright line of every font, is in [`LICENSES.txt`](LICENSES.txt). Generated glyphs in this repository are new images produced by the model, and the pictures in `assets/` that show real glyphs (the copy check) use only these open-licensed fonts.

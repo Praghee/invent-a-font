@@ -1,0 +1,125 @@
+Fonts used for training. They are NOT included in this repository.
+Licence detected from the metadata inside each font file.
+
+Summary
+  SIL OFL 1.1: 92
+  Apache 2.0: 8
+  total: 100
+
+file | family | licence | copyright
+AbrilFatface-Regular.ttf | Abril Fatface | SIL OFL 1.1 | Copyright (c) 2011, Copyright (c) 2011, TypeTogether (www.type-together.com), with Reserved Font Names "Abril" and "Abril Fatface"
+AlfaSlabOne-Regular.ttf | Alfa Slab One | SIL OFL 1.1 | Copyright 2016 The Alfa Slab One Project Authors (http://www.jmsole.cl | info@jmsole.cl), with Reserved Font Name "Alfa Slab".
+Anton-Regular.ttf | Anton | SIL OFL 1.1 | Copyright 2020 The Anton Project Authors (https://github.com/googlefonts/AntonFont.git)
+Arvo-Regular.ttf | Arvo | SIL OFL 1.1  | Copyright (c) 2010 Anton Koovit.
+Audiowide-Regular.ttf | Audiowide | SIL OFL 1.1 | Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved
+Font Name "Audiowide"
+Barrio-Regular.ttf | Barrio | SIL OFL 1.1 | Copyright 2016 The Barrio Project Authors (omnibus.type@gmail.com)
+BebasNeue-Regular.ttf | Bebas Neue | SIL OFL 1.1 | Copyright 2019 The Bebas Neue Project Authors (https://github.com/dharmatype/Bebas-Neue)
+Bevan-Regular.ttf | Bevan | SIL OFL 1.1 | Copyright 2016 The Bevan Project Authors (https://github.com/googlefonts/BevanFont)
+BlackOpsOne-Regular.ttf | Black Ops One | SIL OFL 1.1 | Copyright 2022 The PinyonScript Project Authors (https://github.com/SorkinType/Black-Ops)
+Bungee-Regular.ttf | Bungee | SIL OFL 1.1 | Copyright 2023 The Bungee Project Authors (https://github.com/djrrb/Bungee)
+BungeeShade-Regular.ttf | Bungee Shade | SIL OFL 1.1 | Copyright 2023 The Bungee Project Authors (https://github.com/djrrb/Bungee)
+CarterOne.ttf | Carter One | SIL OFL 1.1 | Copyright (c) 2011 by vernon adams. All rights reserved.
+Caveat.ttf | Caveat | SIL OFL 1.1 | Copyright 2014 The Caveat Project Authors (https://github.com/googlefonts/caveat)
+Chango-Regular.ttf | Chango | SIL OFL 1.1 | Copyright (c) 2011 Fontstage (info@fontstage.com), with Reserved Font Name "Chango"
+CinzelDecorative-Regular.ttf | Cinzel Decorative | SIL OFL 1.1 | Copyright © 2012 Natanael Gama (info@ndiscovered.com), with Reserved Font Name 'Cinzel'
+Courgette-Regular.ttf | Courgette | SIL OFL 1.1 | Copyright (c) 2012, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name "Courgette".
+CourierPrime-Regular.ttf | Courier Prime | SIL OFL 1.1 | Copyright 2015 The Courier Prime Project Authors (https://github.com/quoteunquoteapps/CourierPrime).
+Creepster-Regular.ttf | Creepster | SIL OFL 1.1 | Copyright (c) 2011, Font Diner, Inc (diner@fontdiner.com), with Reserved Font Names "Creepster"
+CrimsonText-Regular.ttf | Crimson Text | SIL OFL 1.1 | Copyright 2010 The Crimson Text Project Authors (https://github.com/googlefonts/Crimson)
+DancingScript.ttf | Dancing Script | SIL OFL 1.1 | Copyright 2016 The Dancing Script Project Authors (https://github.com/googlefonts/DancingScript), with Reserved Font Name "Dancing Script".
+DelaGothicOne-Regular.ttf | Dela Gothic One | SIL OFL 1.1 | Copyright 2020 The Dela Gothic Project Authors (https://github.com/syakuzen/DelaGothic)
+Diplomata-Regular.ttf | Diplomata | SIL OFL 1.1 | Copyright 2011 The Diplomata Project Authors (https://github.com/etunni/diplomata), with Reserved Font Name "Diplomata"
+Eater-Regular.ttf | Eater | SIL OFL 1.1 | Copyright (c) 2011, Typomondo, with Reserved Font Name "Eater"
+EmblemaOne-Regular.ttf | Emblema One | SIL OFL 1.1 | Copyright (c) 2011 by Sorkin Type Co with Reserved Font Names "Emblema" and "Emblema One"
+EricaOne-Regular.ttf | Erica One | SIL OFL 1.1 | Copyright (c) 2011 by LatinoType Limitada (info@latinotype.com),  with Reserved Font Names "Erica" "Erica One"
+Ewert-Regular.ttf | Ewert | SIL OFL 1.1 | Copyright (c) 2011, Johan Kallas (johankallas@gmail.com), Copyright (c) 2011 Mihkel Virkus (mihkelvirkus@gmail.com) with Reserved Font Name Ewert.
+Fascinate-Regular.ttf | Fascinate | SIL OFL 1.1 | Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved
+Font Name "Fascinate"
+FasterOne-Regular.ttf | Faster One | SIL OFL 1.1 | Copyright 2012 The Faster Project Authors (https://github.com/etunni/faster), with Reserved Font Name 'Faster'
+Fasthand-Regular.ttf | Fasthand | SIL OFL 1.1 | Copyright 2020 The Fasthand Project Authors (https://github.com/danhhong/Fasthand)
+FontdinerSwanky-Regular.ttf | Fontdiner Swanky | Apache 2.0 | Copyright (c) 2010 by Font Diner, Inc. All rights reserved.
+Frijole-Regular.ttf | Frijole | SIL OFL 1.1 | Copyright (c) 2011 by Font Diner, Inc DBA Sideshow (diner@fontdiner.com) with Reseved Font Name "Frijole"
+Galindo-Regular.ttf | Galindo | SIL OFL 1.1 | Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved
+Font Name "Galindo"
+GloriaHallelujah.ttf | Gloria Hallelujah | SIL OFL 1.1 | Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
+GochiHand-Regular.ttf | Gochi Hand | SIL OFL 1.1 | Copyright (c) 2011, Huerta Tipografica (www.huertatipografica.com.ar),  with Reserved Font Names "Gochi" and "Gochi Hand"
+GreatVibes-Regular.ttf | Great Vibes | SIL OFL 1.1 | Copyright 2010 The Great Vibes Pro Project Authors (https://github.com/googlefonts/great-vibes)
+HennyPenny-Regular.ttf | Henny Penny | SIL OFL 1.1 | Copyright (c) 2012, Brownfox (gayaneh.b@gmail.com), with Reserved Font Name "Henny Penny"
+HomemadeApple-Regular.ttf | Homemade Apple | Apache 2.0 | Copyright (c) 2010 by Font Diner, Inc. All rights reserved.
+IndieFlower-Regular.ttf | Indie Flower | SIL OFL 1.1 | Copyright 2010 The Indie Flower Authors (kimberlygeswein.com)
+JotiOne-Regular.ttf | Joti One | SIL OFL 1.1 | Copyright 2012 The Joti One Project Authors (https://github.com/etunni/joti), with Reserved Font Name "Joti"
+KaushanScript-Regular.ttf | Kaushan Script | SIL OFL 1.1 | Copyright (c) 2011, Pablo Impallari (www.impallari.com|impallari@gmail.com),
+Copyright (c) 2011, Igino Marini. (www.ikern.com|mail@iginomarini.com),
+with Reserved Font Name Kaushan Script.
+Kavoon-Regular.ttf | Kavoon | SIL OFL 1.1 | Copyright (c) 2011-2012, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name 'Kavoon'
+KdamThmorPro-Regular.ttf | Kdam Thmor Pro | SIL OFL 1.1 | Copyright 2022 The Kdam Thmor Pro Project Authors (https://www.github.com/sovichet/kdam-thmor-pro)
+Knewave-Regular.ttf | Knewave | SIL OFL 1.1 | Copyright (c) 2011 by Tyler Finck. All rights reserved.
+Lato-Regular.ttf | Lato | SIL OFL 1.1 | Copyright (c) 2011-2015 by tyPoland Lukasz Dziedzic (http://www.typoland.com/) with Reserved Font Name "Lato". Licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL).
+Lemon-Regular.ttf | Lemon | SIL OFL 1.1 | Copyright 2011 The Lemon Project Authors (https://github.com/etunni/lemon) with Reserved Font Name "Lemon"
+Lobster-Regular.ttf | Lobster | SIL OFL 1.1 | Copyright 2010 The Lobster Project Authors (https://github.com/impallari/The-Lobster-Font), with Reserved Font Name "Lobster".
+MajorMonoDisplay-Regular.ttf | Major Mono Display | SIL OFL 1.1 | Copyright 2018 The Major Mono Project Authors (https://github.com/googlefonts/majormono)
+MarckScript-Regular.ttf | Marck Script | SIL OFL 1.1 | Copyright (c) 2011, Denis Masharov <denis.masharov@gmail.com>, Marck Fogel, with Reserved Font Names "Marck Script".
+Michroma-Regular.ttf | Michroma | SIL OFL 1.1 | Copyright 2011 The Michroma Project Authors (https://github.com/googlefonts/Michroma-font)
+Modak-Regular.ttf | Modak | SIL OFL 1.1 | Copyright (c) 2014, Ek Type. All rights reserved.
+Monoton-Regular.ttf | Monoton | SIL OFL 1.1 | Copyright (c) 2011 by vernon adams. All rights reserved.
+MrsSheppards-Regular.ttf | Mrs Sheppards | SIL OFL 1.1 | Copyright (c) 2004 Alejandro Paul (sudtipos@sudtipos.com),
+with Reserved Font Name "Mrs Sheppards"
+MysteryQuest-Regular.ttf | Mystery Quest | SIL OFL 1.1 | Copyright (c) 2012 by Font Diner, Inc DBA Sideshow (diner@fontdiner.com) with Reseved Font Name "Mystery Quest"
+NewRocker-Regular.ttf | New Rocker | SIL OFL 1.1 | Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com), Copyright (c) 2012, Brenda Gallo (gbrenda1987@gmail.com), Copyright (c) 2012, Rodrigo Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com), with Reserved Font Name 'New Rocker'
+Nosifer-Regular.ttf | Nosifer | SIL OFL 1.1 | Copyright (c) 2011, Typomondo, with Reserved Font Name "Nosifer"
+OleoScript-Regular.ttf | Oleo Script | SIL OFL 1.1 | Copyright (c) 2012, Soytutype (contact@soytutype.com.ar|soytutype@gmail.com), with reserved fontname 'Oleo'
+Orbitron.ttf | Orbitron | SIL OFL 1.1 | Copyright 2018 The Orbitron Project Authors (https://github.com/theleagueof/orbitron), with Reserved Font Name: "Orbitron".
+OrelegaOne-Regular.ttf | Orelega One | SIL OFL 1.1 | Copyright 2021 The Orelega One Project Authors (https://github.com/JapanYoshi/Orelega)
+Oswald.ttf | Oswald | SIL OFL 1.1 | Copyright 2016 The Oswald Project Authors (https://github.com/googlefonts/OswaldFont)
+PT_Serif-Web-Regular.ttf | PT Serif | SIL OFL 1.1 | Copyright © 2010 ParaType Ltd. All rights reserved.
+Pacifico-Regular.ttf | Pacifico | SIL OFL 1.1 | Copyright 2018 The Pacifico Project Authors (https://github.com/googlefonts/Pacifico)
+Peralta-Regular.ttf | Peralta | SIL OFL 1.1 | Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved
+Font Name "Peralta"
+PermanentMarker-Regular.ttf | Permanent Marker | Apache 2.0 | Copyright (c) 2010 by Font Diner, Inc. All rights reserved.
+Plaster-Regular.ttf | Plaster | SIL OFL 1.1 | Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name "Plaster"
+Playball-Regular.ttf | Playball | SIL OFL 1.1 | Copyright 2011 The Playball Project Authors (https://github.com/googlefonts/play-ball)
+PlayfairDisplay.ttf | Playfair Display | SIL OFL 1.1 | Copyright 2017 The Playfair Display Project Authors (https://github.com/clauseggers/Playfair-Display), with Reserved Font Name "Playfair Display".
+PollerOne.ttf | Poller One | SIL OFL 1.1 | Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com) with Reserved Font Names "Poller" and "Poller One".
+Poppins-Regular.ttf | Poppins | SIL OFL 1.1 | Copyright 2020 The Poppins Project Authors (https://github.com/itfoundry/Poppins)
+PottaOne-Regular.ttf | Potta One | SIL OFL 1.1 | Copyright 2020 The Potta Project Authors (https://github.com/go108go/Potta), all rights reserved.
+PressStart2P-Regular.ttf | Press Start 2P | SIL OFL 1.1 | Copyright 2012 The Press Start 2P Project Authors (cody@zone38.net), with Reserved Font Name "Press Start 2P"
+RampartOne-Regular.ttf | Rampart One | SIL OFL 1.1 | Copyright 2020 The Rampart Project Authors (https://github.com/fontworks-fonts/Rampart/)
+Revalia-Regular.ttf | Revalia | SIL OFL 1.1 | Copyright (c) 2011, Johan Kallas (johankallas@gmail.com), Copyright (c) 2011, Mihkel Virkus (mihkelvirkus@gmail.com), with Reserved Font Name Revalia.
+Righteous-Regular.ttf | Righteous | SIL OFL 1.1 | Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved
+Font Name "Righteous"
+Roboto.ttf | Roboto | SIL OFL 1.1 | Copyright 2011 The Roboto Project Authors (https://github.com/googlefonts/roboto-classic)
+RockSalt-Regular.ttf | Rock Salt | Apache 2.0 | Copyright (c) 2010 by Font Diner, Inc DBA Sideshow. All rights reserved.
+RubikBurned-Regular.ttf | Rubik Burned | SIL OFL 1.1 | Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)
+RubikMonoOne-Regular.ttf | Rubik Mono One | SIL OFL 1.1 | Copyright 2015 The Rubik Project Authors (mail@hubertfischer.com)
+RubikWetPaint-Regular.ttf | Rubik Wet Paint | SIL OFL 1.1 | Copyright 2020 The Rubik Filtered Project Authors (https://github.com/NaN-xyz/Rubik-Filtered)
+RuslanDisplay-Regular.ttf | Ruslan Display | SIL OFL 1.1 | Copyright 2011 Oleg Snarsky, Denis Masharov, Vladimir Rabdu.
+Rye-Regular.ttf | Rye | SIL OFL 1.1 | Copyright (c) 2010 by Sorkin Type Co with Reserved Font Name Rye.
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
+Sacramento-Regular.ttf | Sacramento | SIL OFL 1.1 | Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved
+Font Name "Sacramento"
+Satisfy-Regular.ttf | Satisfy | Apache 2.0 | Copyright (c) 2011 by Font Diner, Inc. All rights reserved.
+SeymourOne-Regular.ttf | Seymour One | SIL OFL 1.1 | Copyright 2011 The Seymour One Project Authors (https://github.com/googlefonts/seymourFont)
+ShadowsIntoLight.ttf | Shadows Into Light | SIL OFL 1.1 | Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
+Shojumaru-Regular.ttf | Shojumaru | SIL OFL 1.1 | Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name "Shojumaru"
+Slackey-Regular.ttf | Slackey | Apache 2.0 | Copyright (c) 2010 by Font Diner, Inc DBA Sideshow. All rights reserved.
+SonsieOne-Regular.ttf | Sonsie One | SIL OFL 1.1 | Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com)
+with Reserved Font Name "Sonsie One".
+SpaceMono-Regular.ttf | Space Mono | SIL OFL 1.1 | Copyright 2016 The Space Mono Project Authors (https://github.com/googlefonts/spacemono)
+SueEllenFrancisco-Regular.ttf | Sue Ellen Francisco | SIL OFL 1.1 | Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)
+Sunshiney-Regular.ttf | Sunshiney | Apache 2.0 | Copyright (c) 2010 by Font Diner, Inc DBA Sideshow. All rights reserved.
+SupermercadoOne-Regular.ttf | Supermercado | SIL OFL 1.1 | Copyright (c) 2011-2012, Sorkin Type Co (www.sorkintype.com)
+with Reserved Font Name "Supermercado".
+TradeWinds-Regular.ttf | Trade Winds | SIL OFL 1.1 | Copyright (c) 2011 by Font Diner, Inc DBA Sideshow (diner@fontdiner.com) with Reseved Font Name "Trade Winds"
+UncialAntiqua-Regular.ttf | Uncial Antiqua | SIL OFL 1.1 | Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved
+Font Name "Uncial Antiqua"
+VampiroOne-Regular.ttf | Vampiro One | SIL OFL 1.1 | Copyright (c) 2012 by Sorkin Type Co (www.sorkintype.com), with Reserved Font Name 'Vampiro'
+VastShadow-Regular.ttf | Vast Shadow | SIL OFL 1.1 | Copyright (c) 2010 by Sorkin Type Co with Reserved Font Name Vast and Vast Shadow.
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
+Wallpoet-Regular.ttf | Wallpoet | SIL OFL 1.1 | Copyright (c) 2011 by Lars Berggren. All rights reserved.
+Warnes-Regular.ttf | Warnes | SIL OFL 1.1 | Copyright 2012 The Warnes Project Authors (https://github.com/etunni/warnes), with Reserved Font Name 'Warnes'
+Yellowtail-Regular.ttf | Yellowtail | Apache 2.0 | Copyright (c) 2011 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence. http://www.apache.org/licenses/LICENSE-2.0.html
+ZenDots-Regular.ttf | Zen Dots | SIL OFL 1.1 | Copyright 2021 The Dots Project Authors (https://github.com/googlefonts/zen-dots)
+ZillaSlab-Regular.ttf | Zilla Slab | SIL OFL 1.1 | Copyright 2017, The Mozilla Foundation
