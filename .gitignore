@@ -1,8 +1,10 @@
 .venv/
 __pycache__/
-checkpoints/
+checkpoints/*
 data/raw/
 *.pt
+!checkpoints/cond_best.pt
+!checkpoints/judge.pt
 scratch/
 outputs/
 sample.png
