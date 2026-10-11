@@ -69,14 +69,31 @@ Evaluated on 520 samples (20 per letter), DDIM-100, with a separate judge networ
 
 ```
 pip install -r requirements.txt
-python train.py             # conditional model: checkpoints/cond_last.pt and cond_best.pt
-python train_judge.py       # judge network: checkpoints/judge.pt
-python sample.py            # A–Z grid from one noise
-python evaluate.py sweep    # guidance sweep table
-python showcase.py          # sheet, strip, GIF and copy check
 ```
 
-Settings live in the `cfg` dictionary at the bottom of each script. Fonts are not in the repo (see below), so put your own `.ttf` files in `data/raw/fonts/`.
+**Use the included weights** (`checkpoints/cond_best.pt` and `checkpoints/judge.pt`), no training needed:
+
+```
+python sample.py            # A–Z grid from one noise
+python showcase.py          # sheet, strip, GIF and copy check (needs the fonts, see below)
+python evaluate.py sweep    # guidance sweep table (needs the fonts)
+```
+
+**Or train it yourself:**
+
+```
+python train.py             # conditional model: checkpoints/cond_last.pt and cond_best.pt
+python train_judge.py       # judge network: checkpoints/judge.pt
+```
+
+Settings live in the `cfg` dictionary at the bottom of each script. Fonts are not in the repo (see below), so put your own `.ttf` files in `data/raw/fonts/` for training, evaluation and the copy check.
+
+## Included weights
+
+- `checkpoints/cond_best.pt`: the class-conditional diffusion model (the epoch with the lowest training loss: epoch 1980, loss 0.0107). Every result and picture in this README was made with it.
+- `checkpoints/judge.pt`: the judge network used for evaluation.
+
+The model was trained on the open-licensed fonts listed below.
 
 ## Fonts and licences
 
